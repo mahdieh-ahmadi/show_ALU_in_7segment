@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="E:/university/3991/fpga/homeworks/show_ALU_in_7segment/test_show_7segment_isim_par.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="test_show_7segment" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="5" />
+   <wvobject fp_name="/test_show_7segment/in_1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">in_1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">in_1[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_show_7segment/in_2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">in_2[3:0]</obj_property>
+      <obj_property name="ObjectShortName">in_2[3:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_show_7segment/out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">out[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_show_7segment/sel" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sel[2:0]</obj_property>
+      <obj_property name="ObjectShortName">sel[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_show_7segment/En" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">En</obj_property>
+      <obj_property name="ObjectShortName">En</obj_property>
+   </wvobject>
+</wave_config>

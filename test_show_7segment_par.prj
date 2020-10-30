@@ -1,0 +1,2 @@
+verilog work "netgen/par/show_ALU_in_7segment_timesim.v"
+verilog work "test_show_7segment.v"

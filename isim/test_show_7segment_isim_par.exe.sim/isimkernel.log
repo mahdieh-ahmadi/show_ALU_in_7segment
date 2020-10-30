@@ -1,0 +1,28 @@
+Command line:
+   test_show_7segment_isim_par.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  55640
+
+Fri Oct 30 14:23:38 2020
+
+
+ Elaboration Time: 0.109375 sec
+
+ Current Memory Usage: 5163.81 Meg
+
+ Total Signals          : 535
+ Total Nets             : 295
+ Total Signal Drivers   : 287
+ Total Blocks           : 125
+ Total Primitive Blocks : 92
+ Total Processes        : 306
+ Total Traceable Variables  : 310
+ Total Scalar Nets and Variables : 8980
+
+ Total Simulation Time: 0.28125 sec
+
+ Current Memory Usage: 4691.95 Meg
+
+Fri Oct 30 14:27:57 2020
+

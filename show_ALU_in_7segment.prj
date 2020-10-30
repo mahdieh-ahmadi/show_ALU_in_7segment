@@ -1,0 +1,2 @@
+verilog work "hex2sevensegment.v"
+verilog work "show_ALU_in_7segment.v"

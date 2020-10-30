@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "simprims_ver" -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "E:/university/3991/fpga/homeworks/show_ALU_in_7segment/test_show_7segment_isim_par.exe" -prj "E:/university/3991/fpga/homeworks/show_ALU_in_7segment/test_show_7segment_par.prj" "work.test_show_7segment" "work.glbl" 

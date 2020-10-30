@@ -1,0 +1,4 @@
+verilog work "hex2sevensegment.v"
+verilog work "show_ALU_in_7segment.v"
+verilog work "test_show_7segment.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"
