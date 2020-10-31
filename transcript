@@ -1,0 +1,107 @@
+# Reading C:/modeltech64_10.5/tcl/vsim/pref.tcl
+# //  ModelSim SE-64 10.5 Feb 13 2016 
+# //
+# //  Copyright 1991-2016 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do {test_show_7segment.tdo}
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 18:37:48 on Oct 31,2020
+# vlog -reportprogress 300 netgen/par/show_ALU_in_7segment_timesim.v 
+# -- Compiling module show_ALU_in_7segment
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	show_ALU_in_7segment
+# 	glbl
+# End time: 18:37:48 on Oct 31,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 18:37:48 on Oct 31,2020
+# vlog -reportprogress 300 test_show_7segment.v 
+# -- Compiling module test_show_7segment
+# 
+# Top level modules:
+# 	test_show_7segment
+# End time: 18:37:48 on Oct 31,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 18:37:48 on Oct 31,2020
+# vlog -reportprogress 300 C:/Xilinx/14.7/ISE_DS/ISE/verilog/src/glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 18:37:49 on Oct 31,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps "+maxdelays" -L simprims_ver -L secureip -lib work work.test_show_7segment glbl 
+# Start time: 18:37:49 on Oct 31,2020
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.test_show_7segment(fast)
+# Loading work.show_ALU_in_7segment(fast)
+# Loading simprims_ver.X_IPAD(fast)
+# Loading simprims_ver.X_BUF(fast)
+# Loading simprims_ver.X_BUF(fast__1)
+# Loading simprims_ver.X_OPAD(fast)
+# Loading simprims_ver.X_OBUF(fast)
+# Loading simprims_ver.X_OBUF(fast__1)
+# Loading simprims_ver.X_LUT6(fast)
+# Loading simprims_ver.X_LUT6(fast__1)
+# Loading simprims_ver.X_LUT6(fast__2)
+# Loading simprims_ver.X_OBUF(fast__2)
+# Loading simprims_ver.X_OBUF(fast__3)
+# Loading simprims_ver.X_BUF(fast__2)
+# Loading simprims_ver.X_BUF(fast__3)
+# Loading simprims_ver.X_BUF(fast__4)
+# Loading simprims_ver.X_OBUF(fast__4)
+# Loading simprims_ver.X_OBUF(fast__5)
+# Loading simprims_ver.X_BUF(fast__5)
+# Loading simprims_ver.X_LUT6(fast__3)
+# Loading simprims_ver.X_LUT5(fast)
+# Loading simprims_ver.X_LUT6(fast__4)
+# Loading simprims_ver.X_LUT5(fast__1)
+# Loading simprims_ver.X_LUT6(fast__5)
+# Loading simprims_ver.X_LUT6(fast__6)
+# Loading simprims_ver.X_LUT5(fast__2)
+# Loading simprims_ver.X_LUT6(fast__7)
+# Loading simprims_ver.X_LUT5(fast__3)
+# Loading simprims_ver.X_LUT6(fast__8)
+# Loading simprims_ver.X_LUT6(fast__9)
+# Loading simprims_ver.X_LUT6(fast__10)
+# Loading simprims_ver.X_LUT6(fast__11)
+# Loading simprims_ver.X_LUT6(fast__12)
+# Loading simprims_ver.X_LUT5(fast__4)
+# Loading simprims_ver.X_LUT6(fast__13)
+# Loading simprims_ver.X_LUT6(fast__14)
+# Loading simprims_ver.X_LUT6(fast__15)
+# Loading simprims_ver.X_LUT5(fast__5)
+# Loading simprims_ver.X_LUT6(fast__16)
+# Loading simprims_ver.X_LUT5(fast__6)
+# Loading simprims_ver.X_BUF(fast__6)
+# Loading simprims_ver.X_BUF(fast__7)
+# Loading simprims_ver.X_BUF(fast__8)
+# Loading simprims_ver.X_BUF(fast__9)
+# Loading simprims_ver.X_OBUF(fast__6)
+# Loading simprims_ver.X_BUF(fast__10)
+# Loading simprims_ver.X_BUF(fast__11)
+# Loading simprims_ver.X_BUF(fast__12)
+# Loading simprims_ver.X_OBUF(fast__7)
+# Loading work.glbl(fast)
+# Loading instances from netgen/par/show_alu_in_7segment_timesim.sdf
+# Loading timing data from netgen/par/show_alu_in_7segment_timesim.sdf
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /test_show_7segment File: test_show_7segment.v
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# End time: 18:45:14 on Oct 31,2020, Elapsed time: 0:07:25
+# Errors: 0, Warnings: 0

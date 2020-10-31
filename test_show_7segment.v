@@ -51,49 +51,61 @@ module test_show_7segment;
 		En = 0;
 
 		// Wait 100 ns for global reset to finish
-		#20;
+		#5;
 		
 		in_1 = 7;
 		in_2 = 5;
 		sel = 0;
 		En = 1;
-		#20;
+		#4;
 		
       in_1 = 10;
 		in_2 = 8;
 		sel = 2;
 		En = 1;
-		#20;
+		#4;
 		
 		in_1 = 12;
 		in_2 = 1;
 		sel = 1;
 		En = 1;
-		#20;
+		#4;
 		
 		in_1 = 5;
 		in_2 = 10;
 		sel = 3;
 		En = 1;
-		#20;
+		#5;
 		
 		in_1 = 12;
 		in_2 = 10;
 		sel = 1;
 		En = 0;
-		#20;
+		#5;
 		
 		in_1 = 10;
 		in_2 = 15;
 		sel = 0;
 		En = 1;
-		#20;
+		#5;
 		
 		in_1 = 11;
 		in_2 = 15;
 		sel = 1;
 		En = 1;
-		#20;
+		#5;
+		
+		in_1 = 11;
+		in_2 = 15;
+		sel = 3;
+		En = 0;
+		#5;
+		
+		in_1 = 8;
+		in_2 = 10;
+		sel = 2;
+		En = 1;
+		#5;
 		// Add stimulus here
 
 	end

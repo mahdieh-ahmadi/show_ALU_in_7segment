@@ -29,6 +29,6 @@ module show_ALU_in_7segment(
 	 wire [7:0] w2;
 	 assign w1 = sel == 0 ? (in_1 > in_2 ? in_1-in_2 : in_2-in_1) : (sel == 1 ? in_1+in_2 : sel == 2 ? ~(in_1 ^ in_2) : ~(in_1&in_2) );
 	 hex2sevensegment hex2sevensegment (w1 , w2);
-assign out = En == 1 ? w2 : 8'bz;
+assign out = En == 1 ? w2 : 8'b00000000;
 
 endmodule

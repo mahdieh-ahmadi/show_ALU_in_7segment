@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2020-10-30T13:53:27</DateModified>
+  <DateModified>2020-10-31T16:32:27</DateModified>
   <ModuleName>show_ALU_in_7segment</ModuleName>
   <SummaryTimeStamp>2020-10-30T13:46:42</SummaryTimeStamp>
   <SavedFilePath>E:/university/3991/fpga/homeworks/show_ALU_in_7segment/iseconfig/show_ALU_in_7segment.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>E:/university/3991/fpga/homeworks/show_ALU_in_7segment</ImplementationReportsDirectory>
+  <ImplementationReportsDirectory>E:/university/3991/fpga/homeworks/show_ALU_in_7segment\</ImplementationReportsDirectory>
   <DateInitialized>2020-10-30T12:20:08</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

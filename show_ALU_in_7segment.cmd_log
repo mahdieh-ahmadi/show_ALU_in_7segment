@@ -30,3 +30,9 @@ map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -reg
 par -w -intstyle ise -ol high -mt off show_ALU_in_7segment_map.ncd show_ALU_in_7segment.ncd show_ALU_in_7segment.pcf 
 trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml show_ALU_in_7segment.twx show_ALU_in_7segment.ncd -o show_ALU_in_7segment.twr show_ALU_in_7segment.pcf 
 netgen -intstyle ise -s 3  -pcf show_ALU_in_7segment.pcf -sdf_anno true -sdf_path "netgen/par" -insert_glbl true -insert_pp_buffers true -w -dir netgen/par -ofmt verilog -sim show_ALU_in_7segment.ncd show_ALU_in_7segment_timesim.v 
+xst -intstyle ise -ifn "E:/university/3991/fpga/homeworks/show_ALU_in_7segment/show_ALU_in_7segment.xst" -ofn "E:/university/3991/fpga/homeworks/show_ALU_in_7segment/show_ALU_in_7segment.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 show_ALU_in_7segment.ngc show_ALU_in_7segment.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o show_ALU_in_7segment_map.ncd show_ALU_in_7segment.ngd show_ALU_in_7segment.pcf 
+par -w -intstyle ise -ol high -mt off show_ALU_in_7segment_map.ncd show_ALU_in_7segment.ncd show_ALU_in_7segment.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml show_ALU_in_7segment.twx show_ALU_in_7segment.ncd -o show_ALU_in_7segment.twr show_ALU_in_7segment.pcf 
+netgen -intstyle ise -s 3  -pcf show_ALU_in_7segment.pcf -sdf_anno true -sdf_path "netgen/par" -insert_glbl true -insert_pp_buffers true -w -dir netgen/par -ofmt verilog -sim show_ALU_in_7segment.ncd show_ALU_in_7segment_timesim.v 

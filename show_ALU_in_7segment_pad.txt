@@ -1,7 +1,7 @@
 Release 14.7 - par P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-Fri Oct 30 14:18:15 2020
+Sat Oct 31 18:21:46 2020
 
 
 INFO: The IO information is provided in three file formats as part of the Place and Route (PAR) process.  These formats are:
@@ -45,32 +45,32 @@ Pinout by Pin Number:
 |P23       |           |IOBS     |IO_L41N_GCLK26_3          |UNUSED   |           |3             |          |         |           |         |         |          |           |                |
 |P24       |           |IOBM     |IO_L41P_GCLK27_3          |UNUSED   |           |3             |          |         |           |         |         |          |           |                |
 |P25       |           |         |GND                       |         |           |              |          |         |           |         |         |          |           |                |
-|P26       |out<7>     |IOB      |IO_L37N_3                 |TRISTATE |LVCMOS25*  |3             |12        |SLOW     |           |         |         |UNLOCATED |NO         |NONE            |
-|P27       |out<6>     |IOB      |IO_L37P_3                 |TRISTATE |LVCMOS25*  |3             |12        |SLOW     |           |         |         |UNLOCATED |NO         |NONE            |
+|P26       |out<7>     |IOB      |IO_L37N_3                 |OUTPUT   |LVCMOS25*  |3             |12        |SLOW     |           |         |         |UNLOCATED |NO         |NONE            |
+|P27       |out<6>     |IOB      |IO_L37P_3                 |OUTPUT   |LVCMOS25*  |3             |12        |SLOW     |           |         |         |UNLOCATED |NO         |NONE            |
 |P28       |           |         |VCCINT                    |         |           |              |          |         |           |         |1.2      |          |           |                |
-|P29       |out<3>     |IOB      |IO_L36N_3                 |TRISTATE |LVCMOS25*  |3             |12        |SLOW     |           |         |         |UNLOCATED |NO         |NONE            |
-|P30       |out<4>     |IOB      |IO_L36P_3                 |TRISTATE |LVCMOS25*  |3             |12        |SLOW     |           |         |         |UNLOCATED |NO         |NONE            |
+|P29       |out<5>     |IOB      |IO_L36N_3                 |OUTPUT   |LVCMOS25*  |3             |12        |SLOW     |           |         |         |UNLOCATED |NO         |NONE            |
+|P30       |out<4>     |IOB      |IO_L36P_3                 |OUTPUT   |LVCMOS25*  |3             |12        |SLOW     |           |         |         |UNLOCATED |NO         |NONE            |
 |P31       |           |         |VCCO_3                    |         |           |3             |          |         |           |         |2.50     |          |           |                |
-|P32       |out<5>     |IOB      |IO_L2N_3                  |TRISTATE |LVCMOS25*  |3             |12        |SLOW     |           |         |         |UNLOCATED |NO         |NONE            |
-|P33       |out<2>     |IOB      |IO_L2P_3                  |TRISTATE |LVCMOS25*  |3             |12        |SLOW     |           |         |         |UNLOCATED |NO         |NONE            |
-|P34       |out<1>     |IOB      |IO_L1N_VREF_3             |TRISTATE |LVCMOS25*  |3             |12        |SLOW     |           |         |         |UNLOCATED |NO         |NONE            |
-|P35       |out<0>     |IOB      |IO_L1P_3                  |TRISTATE |LVCMOS25*  |3             |12        |SLOW     |           |         |         |UNLOCATED |NO         |NONE            |
+|P32       |out<3>     |IOB      |IO_L2N_3                  |OUTPUT   |LVCMOS25*  |3             |12        |SLOW     |           |         |         |UNLOCATED |NO         |NONE            |
+|P33       |out<2>     |IOB      |IO_L2P_3                  |OUTPUT   |LVCMOS25*  |3             |12        |SLOW     |           |         |         |UNLOCATED |NO         |NONE            |
+|P34       |out<1>     |IOB      |IO_L1N_VREF_3             |OUTPUT   |LVCMOS25*  |3             |12        |SLOW     |           |         |         |UNLOCATED |NO         |NONE            |
+|P35       |out<0>     |IOB      |IO_L1P_3                  |OUTPUT   |LVCMOS25*  |3             |12        |SLOW     |           |         |         |UNLOCATED |NO         |NONE            |
 |P36       |           |         |VCCAUX                    |         |           |              |          |         |           |         |2.5      |          |           |                |
 |P37       |           |         |PROGRAM_B_2               |         |           |              |          |         |           |         |         |          |           |                |
 |P38       |sel<2>     |IOB      |IO_L65N_CSO_B_2           |INPUT    |LVCMOS25*  |2             |          |         |           |NONE     |         |UNLOCATED |NO         |NONE            |
 |P39       |sel<1>     |IOB      |IO_L65P_INIT_B_2          |INPUT    |LVCMOS25*  |2             |          |         |           |NONE     |         |UNLOCATED |NO         |NONE            |
-|P40       |sel<0>     |IOB      |IO_L64N_D9_2              |INPUT    |LVCMOS25*  |2             |          |         |           |NONE     |         |UNLOCATED |NO         |NONE            |
-|P41       |En         |IOB      |IO_L64P_D8_2              |INPUT    |LVCMOS25*  |2             |          |         |           |NONE     |         |UNLOCATED |NO         |NONE            |
+|P40       |in_1<2>    |IOB      |IO_L64N_D9_2              |INPUT    |LVCMOS25*  |2             |          |         |           |NONE     |         |UNLOCATED |NO         |NONE            |
+|P41       |in_1<3>    |IOB      |IO_L64P_D8_2              |INPUT    |LVCMOS25*  |2             |          |         |           |NONE     |         |UNLOCATED |NO         |NONE            |
 |P42       |           |         |VCCO_2                    |         |           |2             |          |         |           |         |any******|          |           |                |
 |P43       |in_2<2>    |IOB      |IO_L62N_D6_2              |INPUT    |LVCMOS25*  |2             |          |         |           |NONE     |         |UNLOCATED |NO         |NONE            |
-|P44       |in_2<3>    |IOB      |IO_L62P_D5_2              |INPUT    |LVCMOS25*  |2             |          |         |           |NONE     |         |UNLOCATED |NO         |NONE            |
-|P45       |in_2<0>    |IOB      |IO_L49N_D4_2              |INPUT    |LVCMOS25*  |2             |          |         |           |NONE     |         |UNLOCATED |NO         |NONE            |
-|P46       |in_1<3>    |IOB      |IO_L49P_D3_2              |INPUT    |LVCMOS25*  |2             |          |         |           |NONE     |         |UNLOCATED |NO         |NONE            |
-|P47       |in_1<0>    |IOB      |IO_L48N_RDWR_B_VREF_2     |INPUT    |LVCMOS25*  |2             |          |         |           |NONE     |         |UNLOCATED |NO         |NONE            |
+|P44       |in_1<1>    |IOB      |IO_L62P_D5_2              |INPUT    |LVCMOS25*  |2             |          |         |           |NONE     |         |UNLOCATED |NO         |NONE            |
+|P45       |in_1<0>    |IOB      |IO_L49N_D4_2              |INPUT    |LVCMOS25*  |2             |          |         |           |NONE     |         |UNLOCATED |NO         |NONE            |
+|P46       |in_2<3>    |IOB      |IO_L49P_D3_2              |INPUT    |LVCMOS25*  |2             |          |         |           |NONE     |         |UNLOCATED |NO         |NONE            |
+|P47       |in_2<0>    |IOB      |IO_L48N_RDWR_B_VREF_2     |INPUT    |LVCMOS25*  |2             |          |         |           |NONE     |         |UNLOCATED |NO         |NONE            |
 |P48       |in_2<1>    |IOB      |IO_L48P_D7_2              |INPUT    |LVCMOS25*  |2             |          |         |           |NONE     |         |UNLOCATED |NO         |NONE            |
 |P49       |           |         |GND                       |         |           |              |          |         |           |         |         |          |           |                |
-|P50       |in_1<2>    |IOB      |IO_L31N_GCLK30_D15_2      |INPUT    |LVCMOS25*  |2             |          |         |           |NONE     |         |UNLOCATED |NO         |NONE            |
-|P51       |in_1<1>    |IOB      |IO_L31P_GCLK31_D14_2      |INPUT    |LVCMOS25*  |2             |          |         |           |NONE     |         |UNLOCATED |NO         |NONE            |
+|P50       |sel<0>     |IOB      |IO_L31N_GCLK30_D15_2      |INPUT    |LVCMOS25*  |2             |          |         |           |NONE     |         |UNLOCATED |NO         |NONE            |
+|P51       |En         |IOB      |IO_L31P_GCLK31_D14_2      |INPUT    |LVCMOS25*  |2             |          |         |           |NONE     |         |UNLOCATED |NO         |NONE            |
 |P52       |           |         |VCCINT                    |         |           |              |          |         |           |         |1.2      |          |           |                |
 |P53       |           |         |VCCAUX                    |         |           |              |          |         |           |         |2.5      |          |           |                |
 |P54       |           |         |GND                       |         |           |              |          |         |           |         |         |          |           |                |

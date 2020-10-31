@@ -3,14 +3,14 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.17 secs
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 4.14 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.17 secs
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 4.16 secs
  
 --> Reading design: show_ALU_in_7segment.prj
 
@@ -127,21 +127,12 @@ Synthesizing Unit <show_ALU_in_7segment>.
     Found 4-bit subtractor for signal <in_1[3]_in_2[3]_sub_3_OUT> created at line 30.
     Found 4-bit subtractor for signal <in_2[3]_in_1[3]_sub_4_OUT> created at line 30.
     Found 4-bit adder for signal <in_1[3]_in_2[3]_add_6_OUT> created at line 30.
-    Found 4-bit 4-to-1 multiplexer for signal <_n0056> created at line 28.
-    Found 1-bit tristate buffer for signal <out<7>> created at line 32
-    Found 1-bit tristate buffer for signal <out<6>> created at line 32
-    Found 1-bit tristate buffer for signal <out<5>> created at line 32
-    Found 1-bit tristate buffer for signal <out<4>> created at line 32
-    Found 1-bit tristate buffer for signal <out<3>> created at line 32
-    Found 1-bit tristate buffer for signal <out<2>> created at line 32
-    Found 1-bit tristate buffer for signal <out<1>> created at line 32
-    Found 1-bit tristate buffer for signal <out<0>> created at line 32
+    Found 4-bit 4-to-1 multiplexer for signal <_n0049> created at line 28.
     Found 4-bit comparator greater for signal <in_2[3]_in_1[3]_LessThan_2_o> created at line 30
     Summary:
 	inferred   1 Adder/Subtractor(s).
 	inferred   1 Comparator(s).
-	inferred   6 Multiplexer(s).
-	inferred   8 Tristate(s).
+	inferred   7 Multiplexer(s).
 Unit <show_ALU_in_7segment> synthesized.
 
 Synthesizing Unit <hex2sevensegment>.
@@ -161,10 +152,9 @@ Macro Statistics
  4-bit addsub                                          : 1
 # Comparators                                          : 1
  4-bit comparator greater                              : 1
-# Multiplexers                                         : 6
+# Multiplexers                                         : 7
  4-bit 2-to-1 multiplexer                              : 6
-# Tristates                                            : 8
- 1-bit tristate buffer                                 : 8
+ 8-bit 2-to-1 multiplexer                              : 1
 # Xors                                                 : 1
  4-bit xor2                                            : 1
 
@@ -200,8 +190,9 @@ Macro Statistics
  4-bit addsub                                          : 1
 # Comparators                                          : 1
  4-bit comparator greater                              : 1
-# Multiplexers                                         : 6
+# Multiplexers                                         : 7
  4-bit 2-to-1 multiplexer                              : 6
+ 8-bit 2-to-1 multiplexer                              : 1
 # Xors                                                 : 1
  4-bit xor2                                            : 1
 
@@ -244,16 +235,15 @@ Top Level Output File Name         : show_ALU_in_7segment.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 26
+# BELS                             : 25
 #      GND                         : 1
-#      INV                         : 1
 #      LUT3                        : 1
-#      LUT4                        : 9
-#      LUT5                        : 7
+#      LUT4                        : 2
+#      LUT5                        : 14
 #      LUT6                        : 7
 # IO Buffers                       : 20
 #      IBUF                        : 12
-#      OBUFT                       : 8
+#      OBUF                        : 8
 
 Device utilization summary:
 ---------------------------
@@ -262,14 +252,14 @@ Selected Device : 6slx4tqg144-3
 
 
 Slice Logic Utilization: 
- Number of Slice LUTs:                   25  out of   2400     1%  
-    Number used as Logic:                25  out of   2400     1%  
+ Number of Slice LUTs:                   24  out of   2400     1%  
+    Number used as Logic:                24  out of   2400     1%  
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:     25
-   Number with an unused Flip Flop:      25  out of     25   100%  
-   Number with an unused LUT:             0  out of     25     0%  
-   Number of fully used LUT-FF pairs:     0  out of     25     0%  
+ Number of LUT Flip Flop pairs used:     24
+   Number with an unused Flip Flop:      24  out of     24   100%  
+   Number with an unused LUT:             0  out of     24     0%  
+   Number of fully used LUT-FF pairs:     0  out of     24     0%  
    Number of unique control sets:         0
 
 IO Utilization: 
@@ -317,7 +307,7 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default path analysis
-  Total number of paths / destination ports: 1849 / 8
+  Total number of paths / destination ports: 1848 / 7
 -------------------------------------------------------------------------
 Delay:               11.647ns (Levels of Logic = 9)
   Source:            in_2<0> (PAD)
@@ -330,12 +320,12 @@ Delay:               11.647ns (Levels of Logic = 9)
      IBUF:I->O             5   1.222   0.943  in_2_0_IBUF (in_2_0_IBUF)
      LUT4:I1->O            2   0.205   0.721  in_2[3]_in_1[3]_LessThan_2_o1_SW0 (N9)
      LUT5:I3->O            7   0.203   1.021  in_2[3]_in_1[3]_LessThan_2_o1 (in_2[3]_in_1[3]_LessThan_2_o)
-     LUT5:I1->O            3   0.203   0.879  Mmux__n00561_rs_lut<1>1 (Mmux__n00561_rs_lut<1>)
-     LUT3:I0->O            1   0.205   0.684  Mmux__n00561_rs_cy<1>11 (Mmux__n00561_rs_cy<1>)
+     LUT5:I1->O            3   0.203   0.879  Mmux__n00491_rs_lut<1>1 (Mmux__n00491_rs_lut<1>)
+     LUT3:I0->O            1   0.205   0.684  Mmux__n00491_rs_cy<1>11 (Mmux__n00491_rs_cy<1>)
      LUT6:I4->O            1   0.203   0.580  w1<3>1 (w1<3>1)
      LUT6:I5->O            7   0.205   1.021  w1<3>2 (w1<3>)
-     LUT4:I0->O            1   0.203   0.579  hex2sevensegment/Mram_out21 (hex2sevensegment/Mram_out2)
-     OBUFT:I->O                2.571          out_2_OBUFT (out<2>)
+     LUT5:I1->O            1   0.203   0.579  Mmux_out71 (out_6_OBUF)
+     OBUF:I->O                 2.571          out_6_OBUF (out<6>)
     ----------------------------------------
     Total                     11.647ns (5.220ns logic, 6.427ns route)
                                        (44.8% logic, 55.2% route)
@@ -348,8 +338,8 @@ Cross Clock Domains Report:
 =========================================================================
 
 
-Total REAL time to Xst completion: 7.00 secs
-Total CPU time to Xst completion: 6.71 secs
+Total REAL time to Xst completion: 20.00 secs
+Total CPU time to Xst completion: 19.65 secs
  
 --> 
 
