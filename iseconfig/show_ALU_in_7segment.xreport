@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2020-11-02T08:55:07</DateModified>
+  <DateModified>2020-11-05T10:29:36</DateModified>
   <ModuleName>show_ALU_in_7segment</ModuleName>
   <SummaryTimeStamp>2020-10-30T13:46:42</SummaryTimeStamp>
   <SavedFilePath>E:/university/3991/fpga/homeworks/show_ALU_in_7segment/iseconfig/show_ALU_in_7segment.xreport</SavedFilePath>
